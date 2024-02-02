@@ -1,0 +1,29 @@
+development:
+  adapter: mysql2
+  encoding: utf8mb4
+  collation: utf8mb4_unicode_ci
+  database: auth_ruby
+  username: root
+  password: 12345
+  host: localhost
+  port: 3306
+
+test:
+  adapter: mysql2
+  encoding: utf8mb4
+  collation: utf8mb4_unicode_ci
+  database: auth_ruby
+  username: root
+  password: 12345
+  host: localhost
+  port: 3306
+
+production:
+  adapter: mysql2
+  encoding: utf8mb4
+  collation: utf8mb4_unicode_ci
+  database: auth_ruby
+  username: root
+  password: 12345
+  host: localhost
+  port: 3306
